@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria Nova Zumkeller</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/pnzicon.PNG" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/pizzabg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Nova Zumkeller<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+ 
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+          
+
+            <h2 class="h1 hero-title">Tradição há mais de 22 anos!</h2>
+
+            <p class="hero-text">Pizzaria localizada no bairro Mandaqui desde 2002!</p>
+
+            <button class="btn">
+              <a href="https://api.whatsapp.com/message/ZDTYFXJADXJZH1?autoload=1&app_absent=0">Faça ja o seu pedido</a>
+            </button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100 hero-img-bg">
+
+            <img src="./assets/images/pizzabg.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              Confira o nosso cardápio e faça já o seu <span class="span">pedido</span> conosco.
+            </h2>
+
+            <p class="section-text">
+              A pizzaria Nova Zumkeller oferece uma ampla variedade de opções de sabores de pizza para atender aos gostos de todos os nossos clientes. Desde as tradicionais margherita e pepperoni, até as pizzas especiais com ingredientes doces e combinações inovadoras.
+            </p>
+
+            <button class="btn btn-hover">
+              <a href="https://pizzaria-nova-zumkeller.ola.click/products">Nosso Cardápio</a>
+            </button>
+          </div>
+
+          <figure class="delivery-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.6181015539996!2d-46.638852385190354!3d-23.474236184726234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7aa20adfa73%3A0xe7f09dd941e4a24d!2sPizzaria%20Nova%20Zumkeller!5e0!3m2!1spt-BR!2sbr!4v1673375035321!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+          </figure>
+
+        </div>
+      </section>
+
+
+      
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Nova Zumkeller<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Trabalhamos com catupiry Original, mussarela 3 Marias, calabresa Aurora e produtos de alta qualidade.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/pizzaria.novazumkeller" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/novazumkeller_pizzaria/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+        
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contato</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">(11) 2233-8467</p>
+            <p class="footer-list-item">(11) 2258-7763</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item"></p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Av. Zumkeller, 649 - Parque Mandaqui, São Paulo - SP, 02420-001</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Horario de Atendimento</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Terça à Quinta: 18:00 até 23:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Sexta e Sabado: 18:00 até 00:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Domingo: 18:00 até 23:00</p>
+          </li>
+
+        </ul>
+
+        
+
+      </div>
+    </div>
+
+    
+  </footer>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
